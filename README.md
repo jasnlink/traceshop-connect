@@ -12,17 +12,17 @@ We are providing a platform where merchants can easily create and manage knowled
 
 ## The Flow-Connect Process (tm) for exposure to the DKG ecosystem:
 
-All parties from vendor to end-user will be exposed to the DKG ecosystem in a friction-less way.
-The merchant must sign-up or sign-in for a wallet.
-The merchant will pay with their Shopify billing to mint and use KAs.
-The merchant will display a visible product verification badge and/or QR code on the product page.
-The end-user will be able to confirm and verify the KA from the verification badge and/or QR code.
-The end-user will be able to buy the product as usual by going through the checkout steps.
-Finally, the end-user will receive an email to claim the KA that is associated with the product sale.
+- All parties from vendor to end-user will be exposed to the DKG ecosystem in a friction-less way.
+- The merchant must sign-up or sign-in for a wallet.
+- The merchant will pay with their Shopify billing to mint and use KAs.
+- The merchant will display a visible product verification badge and/or QR code on the product page.
+- The end-user will be able to confirm and verify the KA from the verification badge and/or QR code.
+- The end-user will be able to buy the product as usual by going through the checkout steps.
+- Finally, the end-user will receive an email to claim the KA that is associated with the product sale.
+
+## Architecture Diagram
 
 The architecture of TraceShop Connect will be built upon the following components:
-
-### Architecture Diagram
 
 - [ ] **Frontend**: Developed using React, integrated with a Polaris and Material UI system to provide a user-friendly dashboard for merchants.
 - [ ] **Backend**: Handles business logic and interfacing with the Shopify API using Remix and the DKG Integration.
