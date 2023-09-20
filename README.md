@@ -1,18 +1,32 @@
 # TraceShop Connect
 
+## Objective
+
 TraceShop Connect is envisioned to be a revolutionary Shopify app that leverages the power of the Decentralized Knowledge Graph (DKG) to foster authenticity and transparency in the e-commerce space. By facilitating the seamless binding of Shopify products to knowledge assets, we aim to pave the way for mass adoption and a frictionless end-user onboarding experience onto the DKG ecosystem.
 
 ## Description
 
-TraceShop Connect seeks to bridge the gap between Shopify merchants and the DKG ecosystem, providing a platform where merchants can easily create and manage knowledge assets for their products. The app is designed to be user-friendly, ensuring a smooth onboarding process for merchants who are new to the DKG ecosystem.
+TraceShop Connect seeks to bridge the gap by breaking down the technical barrier of understanding the DKG ecosystem. Shopify merchants, Content Creators, Influencers, etc., who have a large following, will be able to seamlessly leverage the DKG ecosystem.
 
-The architecture of TraceShop Connect is built upon the following components:
+We are providing a platform where merchants can easily create and manage knowledge assets for their products. The app is designed to be user-friendly, ensuring a smooth onboarding process for merchants who are new or experienced with the DKG ecosystem.
+
+## The Flow-Connect Process (tm) for exposure to the DKG ecosystem:
+
+All parties from vendor to end-user will be exposed to the DKG ecosystem in a friction-less way.
+The merchant must sign-up or sign-in for a wallet.
+The merchant will pay with their Shopify billing to mint and use KAs.
+The merchant will display a visible product verification badge and/or QR code on the product page.
+The end-user will be able to confirm and verify the KA from the verification badge and/or QR code.
+The end-user will be able to buy the product as usual by going through the checkout steps.
+Finally, the end-user will receive an email to claim the KA that is associated with the product sale.
+
+The architecture of TraceShop Connect will be built upon the following components:
 
 ### Architecture Diagram
 
 - [ ] **Frontend**: Developed using React, integrated with a Polaris and Material UI system to provide a user-friendly dashboard for merchants.
-- [ ] **Backend**: Handles business logic and interfacing with the Shopify API using Remix.
-- [ ] **DKG-Integration**: Responsible for the integration with the DKG, facilitating the creation and management of knowledge assets.
+- [ ] **Backend**: Handles business logic and interfacing with the Shopify API using Remix and the DKG Integration.
+- [ ] **DKG-Integration**: We will use the [OTHub API](https://github.com/othub-io) to facilitate the creation and management of knowledge assets.
 - [ ] **Wallet-Management**: Manages wallet services, ensuring secure transactions in the DKG ecosystem.
 
 ## Roadmap and Schedule
@@ -31,7 +45,7 @@ The architecture of TraceShop Connect is built upon the following components:
 ### Milestone 2: DKG Integration Phase
 
 - [ ] **DKG Integration & Knowledge Asset Management (January - February 2024)**
-  - [ ] Development of the DKG integration module
+  - [ ] Integration of the OTHub API DKG integration module
   - [ ] Facilitating the creation and management of knowledge assets
   - [ ] Developing features for asset verification and tracking
 
@@ -57,6 +71,6 @@ The architecture of TraceShop Connect is built upon the following components:
 
 ## Projected Impact
 
-TraceShop Connect is poised to revolutionize the e-commerce space by bringing the benefits of the DKG ecosystem to Shopify merchants. By fostering authenticity and transparency through knowledge assets, we aim to build a trusted environment for online shopping. The seamless onboarding process and user-friendly interface are designed to encourage mass adoption, bringing a wide array of merchants into the DKG ecosystem.
+TraceShop Connect is poised to revolutionize the e-commerce space by bringing the benefits of the DKG ecosystem to Shopify merchants. By fostering authenticity and transparency through knowledge assets, we aim to build a trusted environment for online shopping. The seamless onboarding process and user-friendly interface are designed to encourage mass adoption, bringing a wide array of merchants, content creators, influencers, and end-users into the DKG ecosystem.
 
 We are confident that TraceShop Connect will become a cornerstone in the DKG ecosystem, promoting transparency, authenticity, and trust in the e-commerce space.
